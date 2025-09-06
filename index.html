@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>portfolio</title>
+</head>
+<body>
+     <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-3">
+                     <img src="portfolio.png" alt="Portfolio Logo" class="text h-10 w-10 rounded-full align-left">
+                <div class="text-2xl font-bold text-grey-200">PORTFOLIO</div>
+               
+                
+</div>
+               
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="#about" class="nav-link text-gray-600 hover:text-blue-600 font-medium">About</a>
+                    <a href="#skills" class="nav-link text-gray-600 hover:text-blue-600 font-medium">Skills</a>
+                    <a href="#projects" class="nav-link text-gray-600 hover:text-blue-600 font-medium">Projects</a>
+                    <a href="#contact" class="nav-link text-gray-600 hover:text-blue-600 font-medium">Contact</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobileMenuBtn" class="md:hidden text-gray-600 hover:text-blue-600">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class="hidden md:hidden pb-4">
+                <a href="#about" class="block py-2 text-gray-600 hover:text-blue-600 font-medium">About</a>
+                <a href="#skills" class="block py-2 text-gray-600 hover:text-blue-600 font-medium">Skills</a>
+                <a href="#projects" class="block py-2 text-gray-600 hover:text-blue-600 font-medium">Projects</a>
+                <a href="#contact" class="block py-2 text-gray-600 hover:text-blue-600 font-medium">Contact</a>
+            </div>
+        </div>
+    </nav>
+    
+   <section class="hero-gradient text-white pt-24 pb-16">
+        <div class="max-w-6xl px-4 text-left">
+            <div class="main-content">
+                <h1 class="text-3xl md:text-6xl font-bold mb-6">Hi, I'm ARYASHI KHARE</h1>
+                <p class="text-xl md:text-2xl mb-8 text-white-100">Full Stack Developer!</p>
+                
+                <a href="#about" class="bg-white text-blue-600 px-8 py-2 rounded-full font-semibold hover:bg-blue-50 transition-colors duration-300 inline-block">
+                    Learn More About Me
+                </a>
+            </div>
+        </div>
+        <p class="font-fancy text-right">"i code to create , design to inspire"</p>
+    </section>
+
+     <section id="about" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">About Me</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="fade-in">
+                    <div class="w-80 h-80 mx-auto bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center text-white text-8xl">
+                        👨‍💻
+                    </div>
+                </div>
+                
+                <div class="fade-in">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-6">Hello! I'm a passionate developer</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        I'm a full-stack developer I love turning complex problems into simple, elegant solutions.
+                    </p>
+                    <p class="text-gray-600 mb-8 leading-relaxed">
+                        When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying a good cup of coffee while sketching out my next big idea.
+                    </p>
+                    
+                    <div class="grid grid-cols-2 gap-6">
+                        <div>
+                            <h4 class="font-semibold text-gray-800 mb-2">📧 Email</h4>
+                            <p class="text-gray-600">aryashikhare100@gmail.com</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800 mb-2">📍 Location</h4>
+                            <p class="text-gray-600">ghaziabad, uttarpradesh</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800 mb-2">🎓 Education</h4>
+                            <p class="text-gray-600"> Computer Science engineer</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800 mb-2">💼 Experience</h4>
+                            <p class="text-gray-600">6 months</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <section id="skills" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">My Skills</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+
+                <!-- Technical Skills -->
+                <div class="skill-item">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-8">Technical Skills</h3>
+                    
+                    <div class="space-y-6">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-medium text-gray-700">JavaScript</span>
+                                <span class="text-gray-600">90%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-3">
+                                <div class="progress-bar bg-blue-600 h-3 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-medium text-gray-700">Node.js</span>
+                                <span class="text-gray-600">80%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-3">
+                                <div class="progress-bar bg-purple-500 h-3 rounded-full" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-medium text-gray-700">html,css</span>
+                                <span class="text-gray-600">95%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-3">
+                                <div class="progress-bar bg-yellow-500 h-3 rounded-full" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        
+
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Design Skills -->
+                <div class="skill-item">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-8">other Skills</h3>
+                    
+                    <div class="space-y-6">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-medium text-gray-700">dancing</span>
+                                <span class="text-gray-600">90%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-3">
+                                <div class="progress-bar bg-pink-500 h-3 rounded-full" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="font-medium text-gray-700">singing</span>
+                                <span class="text-gray-600">95%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-3">
+                                <div class="progress-bar bg-indigo-500 h-3 rounded-full" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        
+                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-blue-600 mb-4">Featured Projects</h2>
+                <p class="text-xl text-gray-600">A showcase of my recent work and personal projects</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Project 1 -->
+                <div class="card-hover bg-white rounded-2xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
+                        <div class="text-white text-6xl">🎵</div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">doglove</h3>
+                        <p class="text-gray-600 mb-4">A full-stack project for your dogs with html, css . Features include finding a perfect partner for your dog  .</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">html</span>
+                            <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">css</span>
+                            
+                        </div>
+                        <div class="flex space-x-3">
+                           <button class="flex-1 bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors" onclick="location.href='TinDog_Project/index.html'">
+    View Live
+</button>
+
+                            <button class="flex-1 border border-gray-300 text-gray-700 py-2 px-4 rounded-lg hover:bg-gray-50 transition-colors" onclick="viewCode('TinDog_Project')">
+                                View Code
+                            </button>
+                        </div>
+                    </div>
+                </div>
+     
+</body>
+</html>
