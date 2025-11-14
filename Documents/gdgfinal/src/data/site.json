@@ -1,0 +1,21 @@
+{
+  "brand": "GDG On Campus",
+  "nav": [
+    {
+      "label": "Home",
+      "href": "#/"
+    },
+    {
+      "label": "Events",
+      "href": "#/events"
+    },
+    {
+      "label": "Team",
+      "href": "#/team"
+    }
+  ],
+  "cta": {
+    "label": "Join Us",
+    "href": "#/events"
+  }
+}

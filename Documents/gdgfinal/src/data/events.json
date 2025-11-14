@@ -1,0 +1,37 @@
+{
+  "upcoming": {
+    "title": "MEET THE GANG",
+    "subtitle": "Where Innovation Meets Excellence",
+    "cta": {
+      "label": "Register",
+      "href": "#"
+    },
+    "bannerImg": "/images/img1.svg"
+  },
+  "cards": [
+    {
+      "title": "Web Dev Night",
+      "img": "/images/img2.svg"
+    },
+    {
+      "title": "Android Study Jam",
+      "img": "/images/img3.svg"
+    },
+    {
+      "title": "Cloud Day",
+      "img": "/images/img4.svg"
+    },
+    {
+      "title": "ML Bootcamp",
+      "img": "/images/img5.svg"
+    }
+  ],
+  "gallery": [
+    "/images/img6.svg",
+    "/images/img7.svg",
+    "/images/img8.svg",
+    "/images/img2.svg",
+    "/images/img3.svg",
+    "/images/img4.svg"
+  ]
+}
